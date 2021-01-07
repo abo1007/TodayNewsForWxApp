@@ -1,0 +1,55 @@
+/* pages/board/board.wxss */
+page{
+	background-color:#000;
+}
+.app{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.top{
+		height:120rpx;
+		width:96%;
+		border-bottom:1px solid #cccccc;
+}
+.top text{
+	color:#fff;
+	font-size:2rem;
+	
+}
+.content{
+	
+	
+}
+.content .item{
+	display: flex;
+	height:160rpx;
+	width:97%;
+	margin:20rpx auto;
+	background-color:rgba(255,255,255,.1);
+	border-radius:20px;
+	box-shadow:0px 5px 5px rgba(255,255,255,.1);
+	color:#fff;
+}
+.content .item image{
+	flex: 1;
+	height:100%;
+	border-radius:20px;
+}
+.content .item .right{
+	flex:2;
+	padding:12rpx 16rpx;
+	display: flex;
+	flex-flow: column;
+	justify-content:space-between;
+}
+.content .item .right .title{
+	font-size:0.8rem;
+}
+.content .item .right .info{
+	display: flex;
+	justify-content: space-between;
+	font-size:0.6rem;
+	color:#ccc;
+	/* margin-top:10rpx; */
+}

@@ -1,0 +1,49 @@
+/**index.wxss**/
+page{
+	background-color:#000;
+}
+.slide{
+	height:350rpx;
+	width:100%;
+}
+swiper{
+	background-color:#ccc;
+	height:100%;
+}
+swiper-item image{
+	height:100%;
+	width:100%;
+}
+
+.content{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	padding:20px 0;
+}
+
+.content .item{
+	height:100rpx;
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	background-color:rgba(255,255,255,.1);
+	border-radius:10px;
+	margin:5px 20px;
+	padding:0 15px;
+	transition:all 0.2s; 
+}
+.content .item text{
+	font-size:0.7rem;
+	color:#fff;
+	font-weight:bold;
+}
+.content .item image{
+	height:50rpx;
+	width:50rpx;
+}
+
+.content .item:active{
+
+	background-color:#ccc;
+}

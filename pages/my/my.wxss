@@ -1,0 +1,18 @@
+/* pages/my/my.wxss */
+page{
+	background-color:#000;
+}
+text{
+	color:#fff;
+}
+.app{
+	display: flex;
+	justify-content: center;
+}
+.top{
+	width:96%;
+	border-bottom:1px solid #fff;
+}
+.title{
+	font-size:2rem;
+}

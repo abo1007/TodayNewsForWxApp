@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/focus/focus",
+    "pages/my/my",
+    "pages/board/board"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "今日头条减速版",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "backgroundColor":"#000",
+    "color": "#4d4d4d",
+    "selectedColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "./assent/index.png",
+        "selectedIconPath": "./assent/index.png"
+      },
+      {
+        "pagePath": "pages/focus/focus",
+        "text": "焦点",
+        "iconPath": "./assent/focus.png",
+        "selectedIconPath": "./assent/focus-a.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./assent/my.png",
+        "selectedIconPath": "./assent/my-a.png"
+      }
+    ]
+  }
+}

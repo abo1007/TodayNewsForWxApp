@@ -1,0 +1,45 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="slide">
+	<swiper indicator-dots="{{indicatorDots}}"
+	    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+	    <block wx:for="{{background}}" wx:key="*this">
+	        <swiper-item>
+	            <image src="{{background[index]}}" mode="aspectFill"></image>
+	        </swiper-item>
+	    </block>
+	</swiper>
+  </view>
+  <view class="content">
+		<navigator url="../board/board?type=0" hover-class="none">
+			<view class="item">
+			  <text>今日头条</text>
+			  <image src="../../assent/right.png"></image>
+			</view>
+		</navigator>
+	  <navigator url="../board/board?type=1" hover-class="none">
+			<view class="item">
+				  <text>热点资讯</text>
+			  <image src="../../assent/right.png"></image>
+			</view>
+		</navigator>
+		<navigator url="../board/board?type=2" hover-class="none">
+			<view class="item">
+				  <text>疫情速报</text>
+				  <image src="../../assent/right.png"></image>
+			</view>
+		</navigator>
+		<navigator url="../board/board?type=3" hover-class="none">
+			<view class="item">
+				  <text>本地新闻</text>
+				  <image src="../../assent/right.png"></image>
+			</view>
+		</navigator>
+		<navigator url="../board/board?type=4" hover-class="none">
+			<view class="item">
+				  <text>全部信息</text>
+				  <image src="../../assent/right.png"></image>
+			</view>
+		</navigator>
+  </view>
+</view>

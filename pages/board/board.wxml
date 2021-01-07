@@ -1,0 +1,18 @@
+<!--pages/board/board.wxml-->
+<view class="app">
+	<view class="top">
+		<text>{{type}}</text>
+	</view>
+	<view class="content">
+		<view wx:for="{{listData}}" wx:key="{{item.id}}" class="item">
+			<image src="{{item.url}}"></image>
+			<view class="right">
+				<text class="title">{{item.title}}</text>
+				<view class="info">
+					<text class="author">{{item.author}}</text>
+					<text class="num">{{item.num}}评论</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
