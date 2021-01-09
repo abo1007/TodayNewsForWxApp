@@ -21,7 +21,7 @@ page{
 	
 	
 }
-.content .item{
+.content navigator{
 	display: flex;
 	height:160rpx;
 	width:97%;

@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/focus/focus",
     "pages/my/my",
-    "pages/board/board"
+    "pages/board/board",
+    "pages/info/info"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -15,7 +16,7 @@
   "style": "v2",
   "sitemapLocation": "sitemap.json",
   "tabBar": {
-    "backgroundColor":"#000",
+    "backgroundColor": "#000",
     "color": "#4d4d4d",
     "selectedColor": "#fff",
     "borderStyle": "white",

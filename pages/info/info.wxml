@@ -1,0 +1,10 @@
+<!--pages/info/info.wxml-->
+<view class="app">
+	<view class="top">
+		<text class="title">{{newsData.title}}</text>
+	</view>
+	<view class="cen">
+		<text class="author">{{newsData.author}}</text>
+		<text class="num">{{newsData.num}}评</text>
+	</view>
+</view>

@@ -1,0 +1,29 @@
+/* pages/info/info.wxss */
+page{
+	background-color:#000;
+	color:#fff;
+}
+
+.app{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.top{
+	
+	width:96%;
+	border-bottom:1px solid #cccccc;
+}
+.top text{
+	color:#fff;
+	font-size:1.5rem;
+}
+.cen{
+	width:96%;
+	display:flex;
+	justify-content:space-between;
+}
+.cen text{
+	font-size:0.8rem;
+	color:#ccc;
+}
