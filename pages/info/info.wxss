@@ -10,7 +10,6 @@ page{
 	justify-content: center;
 }
 .top{
-	
 	width:96%;
 	border-bottom:1px solid #cccccc;
 }
@@ -27,3 +26,4 @@ page{
 	font-size:0.8rem;
 	color:#ccc;
 }
+

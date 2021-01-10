@@ -8,6 +8,7 @@ text{
 .app{
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 .top{
 	width:96%;
@@ -15,4 +16,36 @@ text{
 }
 .title{
 	font-size:2rem;
+}
+
+.list{
+	width:96%;	
+	margin:20rpx 0;
+}
+.list .li{
+	height:100rpx;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	padding:0px 20px;
+	background-color:rgba(255,255,255,.1);
+	margin:2px 0;
+}
+.list .li:nth-child(1){
+	border-radius:15px 15px 0 0;
+}
+.list .li:last-child{
+	border-radius:0px 0px 15px 15px;
+}
+
+.list .li:active{
+	transition:background-color 0.2s ease;
+	background-color:rgba(255,255,255,.2);
+}
+.list .li text{
+	font-size:0.7rem;
+}
+.list .li image{
+	height:50rpx;
+	width:50rpx;
 }

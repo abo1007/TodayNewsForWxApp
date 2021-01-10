@@ -5,7 +5,13 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+			optionsData:[
+				{id:1, title:"安全中心"},
+				{id:2, title:"创作中心"},
+				{id:3, title:"消息私信"},
+				{id:4, title:"个人资料"},
+				{id:5, title:"通用设置"}
+			]
   },
 
   /**

@@ -3,4 +3,10 @@
 	<view class="top">
 		<text class="title">我的</text>
 	</view>
+	<view class="list">
+		<view class="li" wx:for="{{optionsData}}" wx:key="{{item.id}}">
+			<text>{{item.title}}</text>
+			<image src="../../assent/right.png"></image>
+		</view>
+	</view>
 </view>
