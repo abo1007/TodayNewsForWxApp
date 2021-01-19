@@ -1,4 +1,7 @@
 /**app.wxss**/
+text{
+  color:#fff;
+}
 .container {
   height: 100%;
   display: flex;

@@ -3,7 +3,7 @@
 // 声明假数据
 const listData = [
 	{
-		id:1,title:"石家庄再现高风险地区！这个春节还能过吗？",
+		id:1,title:"栖霞救援首次实现与井下矿工通话！",
 		url:"../../assent/list/1.jpg",author:"新京报",num:8888
 	},
 	{
@@ -11,19 +11,18 @@ const listData = [
 		url:"../../assent/list/2.jpg",author:"中国新闻网",num:100000
 	},
 	{
-		id:3,title:"拼多多知乎账号被禁言15天",
+		id:3,title:"湖南高院一法官被同乡杀害 犯罪嫌疑人被批准逮捕",
 		url:"../../assent/list/3.jpg",author:"36氪",num:8888
 	},
 	{
-		id:4,title:"虾米音乐宣布2月5日关停",
+		id:4,title:"栖霞金矿救援首次与井下矿工通话；山东已启动事故调查",
 		url:"../../assent/list/2.jpg",author:"新京报",num:8888
 	},
 	{
-		id:5,title:"石家庄再现高风险地区！这个春节还能过吗？",
-		url:"../../assent/list/1.jpg",author:"新京报",num:8888
+		id:5,title:"三星掌门人李在镕获刑2年半",
+		url:"../../assent/list/1.jpg",author:"新京报",num:1000000
 	}
 ];
-
 Page({
 
   /**

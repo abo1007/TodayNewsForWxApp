@@ -7,4 +7,11 @@
 		<text class="author">{{newsData.author}}</text>
 		<text class="num">{{newsData.num}}评</text>
 	</view>
+	<view class="bot">
+		{{newsData.content}}
+	</view>
+	<view class="action">
+		<button>点 赞</button>
+		<button>评 论</button>
+	</view>
 </view>
